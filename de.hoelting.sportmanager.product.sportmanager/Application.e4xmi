@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_JRaZANWbEeCtnaU9V8HVFw" elementId="org.eclipse.e4.ide.application" bindingContexts="_JRaZAdWbEeCtnaU9V8HVFw">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_JRaZF9WbEeCtnaU9V8HVFw" elementId="de.hoelting.sportmanager.window" label="de.hoelting.sportmanager.product.sportmanager" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_ORBwoNfrEeCq58ALLulEEA" elementId="asdf">
+      <children xsi:type="advanced:Perspective" xmi:id="_PVuH0NfrEeCq58ALLulEEA" elementId="tres">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_cB1OENfrEeCq58ALLulEEA" elementId="de.hoelting.sportmanager.main.horizontal.sash" selectedElement="_gytjINfrEeCq58ALLulEEA" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_gytjINfrEeCq58ALLulEEA" elementId="de.hoelting.sportmanager.main.left.partstack" containerData="200"/>
+          <children xsi:type="basic:PartStack" xmi:id="_o787INfrEeCq58ALLulEEA" elementId="de.hoelting.sportmanager.main.right.partstack" containerData="400"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_JRaZGNWbEeCtnaU9V8HVFw" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_JRaZGdWbEeCtnaU9V8HVFw" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_JRaZGtWbEeCtnaU9V8HVFw" label="Open" iconURI="platform:/plugin/de.hoelting.sportmanager.product.sportmanager/res/icons/sample.gif" command="_JRaZDtWbEeCtnaU9V8HVFw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_JRaZG9WbEeCtnaU9V8HVFw" label="Save" iconURI="platform:/plugin/de.hoelting.sportmanager.product.sportmanager/res/icons/save_edit.gif" command="_JRaZEdWbEeCtnaU9V8HVFw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_JRaZHNWbEeCtnaU9V8HVFw" label="Quit" command="_JRaZCtWbEeCtnaU9V8HVFw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_JRaZHdWbEeCtnaU9V8HVFw" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_JRaZHtWbEeCtnaU9V8HVFw" label="About" command="_JRaZFNWbEeCtnaU9V8HVFw"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_JRaZI9WbEeCtnaU9V8HVFw">
+      <children xsi:type="menu:ToolBar" xmi:id="_JRaZJNWbEeCtnaU9V8HVFw" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_JRaZJdWbEeCtnaU9V8HVFw" iconURI="platform:/plugin/de.hoelting.sportmanager.product.sportmanager/res/icons/sample.gif" command="_JRaZDtWbEeCtnaU9V8HVFw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_JRaZJtWbEeCtnaU9V8HVFw" iconURI="platform:/plugin/de.hoelting.sportmanager.product.sportmanager/res/icons/save_edit.gif" command="_JRaZEdWbEeCtnaU9V8HVFw"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_JRaZC9WbEeCtnaU9V8HVFw" contributionURI="platform:/plugin/de.hoelting.sportmanager.product.sportmanager/de.hoelting.sportmanager.product.sportmanager.handlers.QuitHandler" command="_JRaZCtWbEeCtnaU9V8HVFw"/>
+  <handlers xmi:id="_JRaZD9WbEeCtnaU9V8HVFw" contributionURI="platform:/plugin/de.hoelting.sportmanager.product.sportmanager/de.hoelting.sportmanager.product.sportmanager.handlers.OpenHandler" command="_JRaZDtWbEeCtnaU9V8HVFw"/>
+  <handlers xmi:id="_JRaZEtWbEeCtnaU9V8HVFw" contributionURI="platform:/plugin/de.hoelting.sportmanager.product.sportmanager/de.hoelting.sportmanager.product.sportmanager.handlers.SaveHandler" command="_JRaZEdWbEeCtnaU9V8HVFw"/>
+  <handlers xmi:id="_JRaZFdWbEeCtnaU9V8HVFw" contributionURI="platform:/plugin/de.hoelting.sportmanager.product.sportmanager/de.hoelting.sportmanager.product.sportmanager.handlers.AboutHandler" command="_JRaZFNWbEeCtnaU9V8HVFw"/>
+  <bindingTables xmi:id="_JRaZDNWbEeCtnaU9V8HVFw" bindingContext="_JRaZAdWbEeCtnaU9V8HVFw">
+    <bindings xmi:id="_JRaZDdWbEeCtnaU9V8HVFw" keySequence="Ctrl+Q" command="_JRaZCtWbEeCtnaU9V8HVFw"/>
+    <bindings xmi:id="_JRaZENWbEeCtnaU9V8HVFw" keySequence="Ctrl+O" command="_JRaZDtWbEeCtnaU9V8HVFw"/>
+    <bindings xmi:id="_JRaZE9WbEeCtnaU9V8HVFw" keySequence="Ctrl+S" command="_JRaZEdWbEeCtnaU9V8HVFw"/>
+    <bindings xmi:id="_JRaZFtWbEeCtnaU9V8HVFw" keySequence="Ctrl+A" command="_JRaZFNWbEeCtnaU9V8HVFw"/>
+  </bindingTables>
+  <rootContext xmi:id="_JRaZAdWbEeCtnaU9V8HVFw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_JRaZAtWbEeCtnaU9V8HVFw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_JRaZA9WbEeCtnaU9V8HVFw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_JRaZCtWbEeCtnaU9V8HVFw" elementId="de.hoelting.sportmanager.product.sportmanager.quitCommand" commandName="quitCommand"/>
+  <commands xmi:id="_JRaZDtWbEeCtnaU9V8HVFw" elementId="de.hoelting.sportmanager.product.sportmanager.openCommand" commandName="openCommand"/>
+  <commands xmi:id="_JRaZEdWbEeCtnaU9V8HVFw" elementId="de.hoelting.sportmanager.product.sportmanager.saveCommand" commandName="saveCommand"/>
+  <commands xmi:id="_JRaZFNWbEeCtnaU9V8HVFw" elementId="de.hoelting.sportmanager.product.sportmanager.aboutCommand" commandName="aboutCommand"/>
+  <addons xmi:id="_JRaZBNWbEeCtnaU9V8HVFw" elementId="org.eclipse.e4.core.commands.service" contributionURI="platform:/plugin/org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_JRaZBdWbEeCtnaU9V8HVFw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="platform:/plugin/org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_JRaZBtWbEeCtnaU9V8HVFw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="platform:/plugin/org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_JRaZB9WbEeCtnaU9V8HVFw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="platform:/plugin/org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_JRaZCNWbEeCtnaU9V8HVFw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="platform:/plugin/org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_JRaZCdWbEeCtnaU9V8HVFw" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="platform:/plugin/org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

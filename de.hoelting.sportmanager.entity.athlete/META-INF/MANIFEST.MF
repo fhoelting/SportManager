@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Athlete
+Bundle-SymbolicName: de.hoelting.sportmanager.entity.athlete
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: Sprotmanager
+Bundle-RequiredExecutionEnvironment: J2SE-1.5

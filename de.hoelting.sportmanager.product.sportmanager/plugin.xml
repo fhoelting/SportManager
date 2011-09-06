@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="de.hoelting.sportmanager.product.sportmanager"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="appName"
+               value="de.hoelting.sportmanager.product.sportmanager">
+         </property>
+         <property
+               name="applicationXMI"
+               value="de.hoelting.sportmanager.product.sportmanager/Application.e4xmi">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/de.hoelting.sportmanager.product.sportmanager/res/css/default.css">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

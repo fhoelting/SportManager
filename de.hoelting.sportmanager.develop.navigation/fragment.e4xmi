@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_0xumANeNEeCtnaU9V8HVFw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_WcIrINeOEeCtnaU9V8HVFw" featurename="children" parentElementId="de.hoelting.sportmanager.main.left.partstack" positionInList="">
+    <elements xsi:type="basic:Part" xmi:id="_5ICIMNfrEeCq58ALLulEEA" elementId="de.hoelting.sportmanager.develop.navigation" contributionURI="platform:/plugin/de.hoelting.sportmanager.develop.navigation/de.hoelting.sportmanager.develop.navigation.DevelopNavigation" label="Develop navigation" tooltip="Only Develop View"/>
+  </fragments>
+</fragment:ModelFragments>
