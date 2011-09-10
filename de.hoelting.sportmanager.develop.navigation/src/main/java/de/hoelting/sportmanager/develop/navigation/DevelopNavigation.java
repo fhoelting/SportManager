@@ -30,7 +30,6 @@ public class DevelopNavigation {
 		TreeViewer tree = new TreeViewer(parent);
 		tree.setContentProvider(new DevelopNavigationTreeContentProvider());
 		tree.setInput(TreeContent.createTreeContent());
-		parent.layout(true, true);
 	}
 
 	
