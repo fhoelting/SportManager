@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="lib" path="C:/p/eclipse-4.1/plugins/org.eclipse.swtbot.junit4_x_2.0.4.20110304_0338-e5aff47-dev-e36.jar"/>
+	<classpathentry kind="lib" path="C:/p/eclipse-4.1/plugins/org.eclipse.swtbot.swt.finder_2.0.4.20110304_0338-e5aff47-dev-e36.jar"/>
+	<classpathentry kind="lib" path="C:/p/eclipse-4.1/plugins/org.apache.log4j_1.2.13.v200903072027.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

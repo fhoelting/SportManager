@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_0QS6wNrsEeChNIBvM7zIwQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_UujV0NrtEeChNIBvM7zIwQ" featurename="children" parentElementId="de.hoelting.sportmanager.main.right.partstack" positionInList="">
+    <elements xsi:type="basic:Part" xmi:id="_ncmwYNrtEeChNIBvM7zIwQ" elementId="de.hoelting.sportmanager.ui.athlete.part" contributionURI="platform:/plugin/de.hoelting.sportmanager.ui.athlete/de.hoelting.sportmanager.ui.athlete.AthleteInputPart" label="Athlete" closeable="true">
+      <tags>Master Data</tags>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
